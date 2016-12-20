@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>jt-timings</title>
+    <link rel="stylesheet" href="styles/bootstrap.min.css" />
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/timings.css">
+  </head>
+
+  <body style="background-color: #444;" ng-app="jtTimingsApp">
+    <div class="center" ng-controller="TimingsCtrl as vm">
+      <p>Simple directive to add and remove the list</p>
+      <button type="button" class="btn btn-primary center-block add-button" ng-click="vm.add()">Add time</button>
+      <timings class-timings="vm.classTimings"></timings>
+    </div>
+  </body>
+
+  <script src="/libs/jquery/dist/jquery.js"></script>
+  <script src="/libs/angular/angular.js"></script>
+  <script src="/libs/bootstrap/dist/js/bootstrap.js"></script>
+  <script src="/libs/moment/moment.js"></script>
+  <script src="/libs/angular-bootstrap/ui-bootstrap-tpls.js"></script>
+
+  <script src="app/app.js"></script>
+  <script src="app/controllers/timings.js"></script>
+  <script src="app/controllers/timingsmodalctrl.js"></script>
+  <script src="app/directives/timings/timings.js"></script>
+
+</html>

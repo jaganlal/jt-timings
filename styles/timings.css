@@ -1,0 +1,72 @@
+$modal-content-color: black;
+
+.timings-modal {
+  color: $modal-content-color;
+}
+
+.timings-container {
+  width: 100%;
+  padding: 0;
+
+  float:left; width: 65%; overflow: hidden;
+}
+
+.timings-container .item {
+  /*display: inline-block;*/
+  background-color: #00BB87;
+  padding: 25px;
+  margin: 1px 0;
+  border-radius: 8px 0px 0px 8px;
+  color: white;
+  /*position: fixed;*/
+  left: 0;
+  right: 0;
+  margin-left: 10px;
+  margin-right: 1px;
+  text-align: center;
+
+  /*-moz-box-shadow:3px 3px 3px #55585B;
+  -webkit-box-shadow:3px 3px 3px #55585B;
+  box-shadow:3px 3px 3px #55585B;
+  -ms-border-radius:1.0em;*/
+}
+
+/* line 119, ../sass/style.scss */
+.timings-container.list .item {
+  float: left;
+  display: inline-block;
+  margin: 10px;
+  padding: 65px;
+}
+
+.status-container {
+  width: 100%;
+  padding: 0;
+  float:right; width: 35%; overflow: hidden;
+}
+
+.status-container .item {
+  /*display: inline-block;*/
+  background-color: darkslategrey;
+  padding: 25px;
+  margin: 1px 0;
+  border-radius: 0px 8px 8px 0px;
+  color: white;
+  /*position: fixed;*/
+  left: 0;
+  right: 0;
+  margin-right: 10px;
+  text-align: center;
+
+  /*-moz-box-shadow:3px 3px 3px #55585B;
+  -webkit-box-shadow:3px 3px 3px #55585B;
+  box-shadow:3px 3px 3px #55585B;
+  -ms-border-radius:1.0em;*/
+}
+
+.status-container.list .item {
+  float: left;
+  display: inline-block;
+  margin: 10px;
+  padding: 65px;
+}
