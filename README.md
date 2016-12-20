@@ -2,7 +2,7 @@
 Simple directive to add/remove list of time
 
 
-A lightweight, extensible directive for adding or removing list of items. Check it out - http://codepen.io/jaganlal/full/ByVWea
+A lightweight, extensible directive for adding or removing list of items. Check it out - http://codepen.io/jaganlal/full/ZBwNLy
 
 <p data-height="268" data-theme-id="12663" data-slug-hash="ByVWea" data-default-tab="result" data-user="jaganlal" class='codepen'>See the Pen <a href='http://codepen.io/jaganlal/pen/ZBwNLy'>jt-timings</a> by Jaganlal (<a href='http://codepen.io/jaganlal'>@jaganlal</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
 <script async src="//assets.codepen.io/assets/embed/ei.js"></script>
