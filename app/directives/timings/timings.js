@@ -1,7 +1,7 @@
 'use strict';
 
 angular.module('jtTimingsApp')
-  .directive('timings', ['$uibModal', function($uibModal) {
+  .directive('jtTimings', ['$uibModal', function($uibModal) {
     return {
       scope: {
         // classTimings:'=classTimings'
